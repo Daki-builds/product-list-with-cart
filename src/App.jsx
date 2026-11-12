@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import products from "./data.json";
-import ProductCard from "./components/ProductCard";
-import Cart from "./components/Cart";
-import OrderModal from "./components/OrderModal";
+import ProductCard from "./Components/ProductCard";
+import Cart from "./Components/Cart";
+import OrderModal from "./Components/OrderModal";
 import "./App.css";
 
 const STORAGE_KEY = "dessert-cart";
